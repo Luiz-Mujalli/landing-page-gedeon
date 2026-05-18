@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-playfair: var(--font-playfair), "Cormorant Garamond", serif;
+}
+
+:root {
+  --background: #ebebeb;
+  --foreground: #1e293b;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair leading-[1.2];
+  }
+}
