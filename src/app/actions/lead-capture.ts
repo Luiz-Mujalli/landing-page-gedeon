@@ -33,6 +33,13 @@ export async function handleLeadCapture(formData: { name: string; email: string;
 
   const { name, email, whatsapp } = validatedFields.data;
 
+  // URL base para o e-book com fallback de segurança
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 
+                  process.env.NEXT_PUBLIC_URL_SITE || 
+                  'https://landing-page-gedeon-i9xuih6l1-luiz-mujallis-projects.vercel.app';
+  
+  const pdfUrl = `${siteUrl.replace(/\/$/, '')}/ebook/ebook-dor-emocional.pdf`;
+
   // 2. Gravação no Google Sheets
   try {
     const serviceAccountAuth = new JWT({
@@ -64,7 +71,7 @@ export async function handleLeadCapture(formData: { name: string; email: string;
       from: 'onboarding@resend.dev', // Altere para seu domínio verificado no Resend
       to: [email],
       subject: 'Seu E-book está aqui! - Gedeon Monteiro',
-      react: WelcomeEmail({ name }),
+      react: WelcomeEmail({ name, pdfUrl }),
     });
 
     if (error) {

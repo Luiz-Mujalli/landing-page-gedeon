@@ -14,9 +14,10 @@ import * as React from 'react';
 
 interface WelcomeEmailProps {
   name: string;
+  pdfUrl: string;
 }
 
-export const WelcomeEmail = ({ name }: WelcomeEmailProps) => {
+export const WelcomeEmail = ({ name, pdfUrl }: WelcomeEmailProps) => {
   return (
     <Html>
       <Head />
@@ -33,7 +34,7 @@ export const WelcomeEmail = ({ name }: WelcomeEmailProps) => {
             <Section className="text-center mt-[32px] mb-[32px]">
               <Button
                 className="bg-[#0071fc] rounded-full text-white text-[16px] font-bold no-underline text-center px-8 py-4"
-                href={`${process.env.NEXT_PUBLIC_APP_URL}/ebook/ebook-dor-emocional.pdf`}
+                href={pdfUrl}
               >
                 Baixar E-book Agora
               </Button>
