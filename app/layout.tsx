@@ -22,6 +22,9 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Gedeon Monteiro | Terapeuta - Libertando seu Potencial",
   description: "Psicoterapia humanizada com Gedeon Monteiro. Encontre equilíbrio emocional e clareza mental através de abordagens modernas e personalizadas.",
+  icons: {
+    icon: "/img/favicon.ico",
+  },
 };
 
 export default function RootLayout({
