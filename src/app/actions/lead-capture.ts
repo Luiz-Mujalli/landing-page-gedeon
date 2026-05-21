@@ -35,8 +35,7 @@ export async function handleLeadCapture(formData: { name: string; email: string;
 
   // URL base para o e-book com fallback de segurança
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 
-                  process.env.NEXT_PUBLIC_URL_SITE || 
-                  'gedeonmonteiro.com.br';
+                  process.env.NEXT_PUBLIC_URL || 'https://gedeonmonteiro.com.br';
   
   const pdfUrl = `${siteUrl.replace(/\/$/, '')}/ebook/ebook-dor-emocional.pdf`;
 

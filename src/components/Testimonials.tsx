@@ -7,7 +7,7 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Anilda',
+    name: 'Edvânia',
     text: 'Já vinha de outras terapias que me deram consciência dos meus bloqueios, mas nenhuma me deu ferramentas para acessá-los. Com o trabalho do Gedeon Monteiro, além de trazer questões que achei que estavam resolvidas, percebi que seria através do amor próprio que tudo se libertaria. Há coisas que nunca falei a ninguém — e consegui falar, sem julgamento. Foi transformador.',
   },
   {
