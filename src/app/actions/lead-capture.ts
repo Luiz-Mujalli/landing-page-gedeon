@@ -36,7 +36,7 @@ export async function handleLeadCapture(formData: { name: string; email: string;
   // URL base para o e-book com fallback de segurança
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 
                   process.env.NEXT_PUBLIC_URL_SITE || 
-                  'https://landing-page-gedeon-i9xuih6l1-luiz-mujallis-projects.vercel.app';
+                  'gedeonmonteiro.com.br';
   
   const pdfUrl = `${siteUrl.replace(/\/$/, '')}/ebook/ebook-dor-emocional.pdf`;
 
