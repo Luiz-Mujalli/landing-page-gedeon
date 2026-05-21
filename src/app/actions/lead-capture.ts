@@ -67,7 +67,7 @@ export async function handleLeadCapture(formData: { name: string; email: string;
   // 3. Disparo de e-mail via Resend
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Gedeon Monteiro <suporte@contato.gedeonmonteiro.com.br>', // Altere para seu domínio verificado no Resend
+      from: 'Gedeon Monteiro <suporte@gedeonmonteiro.com.br>', // Altere para seu domínio verificado no Resend
       to: [email],
       subject: 'Seu E-book está aqui! - Gedeon Monteiro',
       react: WelcomeEmail({ name, pdfUrl }),
