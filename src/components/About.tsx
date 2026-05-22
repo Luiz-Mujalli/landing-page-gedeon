@@ -10,7 +10,7 @@ const About = () => {
           <div className="relative group flex justify-center lg:justify-start">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-lg w-full max-w-[500px] aspect-[4/5]">
               <Image
-                src="/img/sobre.jpg"  
+                src="/img/sobre5.png"  
                 alt="Gedeon Monteiro"
                 fill
                 className="object-cover"
