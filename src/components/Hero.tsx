@@ -12,7 +12,7 @@ const Hero = () => {
               <span className="block text-[#00214a] font-bold text-xs sm:text-sm tracking-[0.2em] uppercase">
                 GEDEON MONTEIRO - ATENDIMENTO 100% ONLINE
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-5xl font-black text-[#00214a] leading-tight uppercase">
+              <h1 className="text-4xl md:text-5xl lg:text-5xl font-black text-[#00214a] leading-tight">
                 Nem tudo que te trava é <em>psicológico</em>
               </h1>
             </div>
