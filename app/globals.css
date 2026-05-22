@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 @theme {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "Open Sans", var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-playfair: var(--font-playfair), "Cormorant Garamond", serif;
+  --font-noto-serif: "Noto Serif", serif;
 }
 
 :root {
@@ -14,6 +15,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: var(--font-sans);
 }
 
 @layer base {
@@ -26,6 +28,6 @@ body {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair leading-[1.2];
+    @apply font-noto-serif leading-[1.2];
   }
 }
