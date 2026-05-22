@@ -69,7 +69,7 @@ const Navbar = () => {
               <span className="leading-none">Gedeon Monteiro</span>
               <span className="hidden min-[901px]:block w-[1px] h-4 bg-gray-400 mx-3 self-center"></span>
               <span className="font-light text-gray-500 text-base sm:text-lg min-[901px]:text-lg uppercase tracking-widest min-[901px]:normal-case min-[901px]:tracking-normal leading-none min-[901px]:mt-[2px]">
-                Terapeuta Energético
+                Terapia Energética e Espiritual
               </span>
             </Link>
           </div>
