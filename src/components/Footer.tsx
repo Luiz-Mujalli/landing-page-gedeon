@@ -44,6 +44,7 @@ const Footer = () => {
                     alt="Instagram Gedeon Monteiro"
                     fill
                     className="object-contain brightness-0 invert"
+                    sizes="20px"
                   />
                 </div>
               </a>

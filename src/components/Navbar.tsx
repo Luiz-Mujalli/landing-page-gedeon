@@ -138,6 +138,7 @@ const Navbar = () => {
                   alt="WhatsApp"
                   fill
                   className="object-contain"
+                  sizes="20px"
                 />
               </div>
               Agendar Consulta
