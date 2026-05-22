@@ -13,7 +13,7 @@ const Hero = () => {
                 GEDEON MONTEIRO - ATENDIMENTO 100% ONLINE
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-black text-[#00214a] leading-tight uppercase">
-                NEM TUDO QUE TE TRAVA É PSICOLÓGICO
+                Nem tudo que te trava é psicológico
               </h1>
             </div>
             <p className="text-lg md:text-xl text-[#1e293b] leading-relaxed max-w-xl mx-auto lg:mx-0">
