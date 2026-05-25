@@ -61,7 +61,7 @@ const Ebook = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-[#dedede] rounded-[2rem] p-8 md:p-16 shadow-sm border-none overflow-hidden">
           {/* Left: Image Side */}
           <div className="flex justify-center lg:justify-start items-center">
-            <div className="relative w-full max-w-[550px] lg:max-w-[450px] aspect-[3/4] group">
+            <div className="relative w-full max-w-[550px] lg:max-w-[450px] aspect-[2/3] sm:aspect-[3/4] group">
               <Image
                 src="/img/capa-e-book8.png"
                 alt="E-book Exclusivo Gedeon Monteiro"
